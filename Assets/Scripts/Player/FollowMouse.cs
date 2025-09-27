@@ -5,6 +5,7 @@ public class FollowMouse : MonoBehaviour
 {
     private InputManager _inputSystem;
     private Rigidbody2D _rigidbody2D;
+    public float offset;
 
     public Camera cam;
 
@@ -16,9 +17,11 @@ public class FollowMouse : MonoBehaviour
 
     private void Update()
     {
-        //var zRotation = Mathf.Atan2(_inputSystem.MousePosition.y, _inputSystem.MousePosition.x) * Mathf.Rad2Deg;
-        //transform.rotation = Quaternion.Euler(0f, 0f, zRotation - 90f); 
-        PointToMouse();
+        Vector3 difference = cam.ScreenToWorldPoint(_inputSystem.MousePosition) - transform.position;
+        float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
+
+        //PointToMouse();
     }
 
     void PointToMouse()
@@ -27,6 +30,6 @@ public class FollowMouse : MonoBehaviour
         
         Vector2 lookDir = mousePos - _rigidbody2D.position;
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        _rigidbody2D.rotation = angle;
+        transform.rotation = Quaternion.Euler(0f,0f, angle);
     }
 }
