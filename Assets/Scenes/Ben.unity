@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7864157df8fc6247aaea66e80e3c283, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManager
-  Horizontal: 1
+  Horizontal: 2
   Vertical: 0
   MousePosition: {x: 0, y: 0}
   Attack: 0
@@ -253,11 +253,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528478756}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9695dfe35596a774c9c985a46f3eae10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowMouse
+  offset: 0
   cam: {fileID: 808606908}
 --- !u!1 &808606906
 GameObject:
@@ -414,11 +415,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6601911731916781418, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6601911731916781418, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7600449719568877936, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_Name
@@ -428,6 +429,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 808606908}
+    - target: {fileID: 8130742408383239481, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+      propertyPath: offset
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5174102766317573654, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
     m_RemovedGameObjects: []
