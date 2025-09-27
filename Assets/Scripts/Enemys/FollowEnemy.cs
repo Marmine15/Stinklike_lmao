@@ -2,19 +2,23 @@ using UnityEngine;
 
 public class FollowEnemy : MonoBehaviour
 {
-    public float moveSpeed;
-
+    [Header("Target")]
     public Transform target;
+    private Vector2 _moveDirection;
+    private Rigidbody2D _rigidbody2D;
+    
+    [Header("Speed")]
+    public float moveSpeed;
+    
+    [Header("Range")]
     public float sightRange;
     public float chaseRange;
     public bool canChase;
-
-    private Vector2 _moveDirection;
-    private Rigidbody2D _rigidbody2D;
-
+    
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        target = GameObject.Find("Player").transform;
     }
 
     private void Update()
