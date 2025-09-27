@@ -53,7 +53,7 @@ public class FollowEnemy : MonoBehaviour
 
     public void TakeDamage(int dameg)
     {
-        if 
+        //if 
     }
 
     private void OnDrawGizmos()
