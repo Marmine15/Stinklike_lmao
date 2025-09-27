@@ -9,6 +9,10 @@ public class FollowEnemy : MonoBehaviour
     
     [Header("Speed")]
     public float moveSpeed;
+
+    [Header("Health")]
+    public int maxHealth;
+    public int currentHealth;
     
     [Header("Range")]
     public float sightRange;
@@ -19,6 +23,8 @@ public class FollowEnemy : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         target = GameObject.Find("Player").transform;
+
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -43,6 +49,11 @@ public class FollowEnemy : MonoBehaviour
     private void FixedUpdate()
     {
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
+    }
+
+    public void TakeDamage(int dameg)
+    {
+        if 
     }
 
     private void OnDrawGizmos()
