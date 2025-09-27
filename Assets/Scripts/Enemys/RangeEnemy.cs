@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using UnityEngine;
 
@@ -17,12 +16,12 @@ public class RangeEnemy : MonoBehaviour
     public float shootTime;
     public bool shooting;
     
-    [Header("Bulletsettings")]
-    [SerializeField]private GameObject _bullet;
-    [SerializeField]private float _bulletcooldown;
+    [Header("BulletSettings")]
+    [SerializeField]private GameObject bullet;
+    [SerializeField]private float bulletCooldown;
     public Transform bulletSpawn;
     private float _bulletTimer;
-    public float BulletSpeed;
+    public float bulletSpeed;
     public float bulletLifetime;
 
     private void Start()
@@ -52,14 +51,14 @@ public class RangeEnemy : MonoBehaviour
         yield return new WaitForSeconds(shootTime);
         
         var targetPos = target.position;
-        _bulletTimer = _bulletcooldown;
+        _bulletTimer = bulletCooldown;
         var projectileClone =
-            Instantiate(_bullet, bulletSpawn.position,
-                Quaternion.identity); //spawn bullet at bulletspawner position
+            Instantiate(bullet, bulletSpawn.position,
+                Quaternion.identity);
         projectileClone.TryGetComponent(out Rigidbody2D rb2D);
 
         projectileClone.transform.right = transform.right.normalized;
-        rb2D.linearVelocity = projectileClone.transform.right * BulletSpeed;
+        rb2D.linearVelocity = projectileClone.transform.right * bulletSpeed;
         Destroy(projectileClone, bulletLifetime);
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(shootTime);

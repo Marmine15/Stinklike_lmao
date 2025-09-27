@@ -51,9 +51,9 @@ public class FollowEnemy : MonoBehaviour
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
     }
 
-    public void TakeDamage(int dameg)
+    public void TakeDamage(int amount)
     {
-        if 
+        
     }
 
     private void OnDrawGizmos()

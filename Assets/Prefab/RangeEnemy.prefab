@@ -216,8 +216,8 @@ MonoBehaviour:
   attackIntrevalCounter: 1
   shootTime: 0.25
   shooting: 0
-  _bullet: {fileID: 5915939505683385863, guid: 992241b421dfbeb449167f3913cd0e7d, type: 3}
-  _bulletcooldown: 0.25
+  bullet: {fileID: 0}
+  bulletcooldown: 1
   bulletSpawn: {fileID: 2757922207292557188}
   BulletSpeed: 6
   bulletLifetime: 4
