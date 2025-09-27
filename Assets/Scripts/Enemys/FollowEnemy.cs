@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class FollowEnemy : MonoBehaviour
@@ -53,7 +54,7 @@ public class FollowEnemy : MonoBehaviour
 
     public void TakeDamage(int dameg)
     {
-        if 
+        throw new NotImplementedException();
     }
 
     private void OnDrawGizmos()
