@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class RangeEnemy : MonoBehaviour
@@ -32,9 +33,39 @@ public class RangeEnemy : MonoBehaviour
 
     private void Update()
     {
-       
+        if (Vector2.Distance(target.position, transform.position) < attackRange)
+        {
+            if (shooting) return;
+            if (attackIntrevalCounter < Time.time)
+            {
+                StartCoroutine(Shooting());
+            }
+        }
     }
 
+    private IEnumerator Shooting()
+    {
+        Vector3 pdirection = Vector3.Cross(transform.position - target.position, Vector3.forward);
+        transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
+        
+        shooting = true;
+        yield return new WaitForSeconds(shootTime);
+        
+        var targetPos = target.position;
+        _bulletTimer = _bulletcooldown;
+        var projectileClone =
+            Instantiate(_bullet, bulletSpawn.position,
+                Quaternion.identity); //spawn bullet at bulletspawner position
+        projectileClone.TryGetComponent(out Rigidbody2D rb2D);
+
+        projectileClone.transform.right = transform.right.normalized;
+        rb2D.linearVelocity = projectileClone.transform.right * BulletSpeed;
+        Destroy(projectileClone, bulletLifetime);
+        attackIntrevalCounter = Time.time;
+        yield return new WaitForSeconds(shootTime);
+        shooting = false;
+    }
+    
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.orange;
