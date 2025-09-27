@@ -2,19 +2,29 @@ using UnityEngine;
 
 public class FollowEnemy : MonoBehaviour
 {
+    [Header("Target")]
+    public Transform target;
+    private Vector2 _moveDirection;
+    private Rigidbody2D _rigidbody2D;
+    
+    [Header("Speed")]
     public float moveSpeed;
 
-    public Transform target;
+    [Header("Health")]
+    public int maxHealth;
+    public int currentHealth;
+    
+    [Header("Range")]
     public float sightRange;
     public float chaseRange;
     public bool canChase;
-
-    private Vector2 _moveDirection;
-    private Rigidbody2D _rigidbody2D;
-
+    
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        target = GameObject.Find("Player").transform;
+
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -39,6 +49,11 @@ public class FollowEnemy : MonoBehaviour
     private void FixedUpdate()
     {
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
+    }
+
+    public void TakeDamage(int dameg)
+    {
+        if 
     }
 
     private void OnDrawGizmos()
