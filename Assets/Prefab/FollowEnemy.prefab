@@ -178,8 +178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 471d9bac0ea77fc49acc81534ca79fb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowEnemy
-  moveSpeed: 4
   target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+  moveSpeed: 4
   sightRange: 6
   chaseRange: 8
   canChase: 0
