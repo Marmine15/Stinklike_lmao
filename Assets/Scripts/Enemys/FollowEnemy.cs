@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class FollowEnemy : MonoBehaviour
@@ -51,9 +52,9 @@ public class FollowEnemy : MonoBehaviour
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int dameg)
     {
-        
+        throw new NotImplementedException();
     }
 
     private void OnDrawGizmos()
