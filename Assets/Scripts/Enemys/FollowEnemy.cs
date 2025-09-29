@@ -64,5 +64,12 @@ public class FollowEnemy : MonoBehaviour
         Gizmos.color = Color.aquamarine; 
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            
+        }
+    }
 }
