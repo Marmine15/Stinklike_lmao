@@ -30,7 +30,7 @@ public class BulletSpawner : MonoBehaviour
             bullet.transform.rotation = spawner.rotation;
             bullet.SetActive(true);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-            rb.AddForce(bullet.transform.up * bulletSpeed, ForceMode2D.Impulse);
+            rb.AddForce(bullet.transform.right * bulletSpeed, ForceMode2D.Impulse);
         }
     }
 }
