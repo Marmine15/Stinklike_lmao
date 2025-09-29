@@ -24,7 +24,7 @@ public class FollowMouse : MonoBehaviour
         PointToMouse();*/
         
         Vector2 dir = cam.ScreenToWorldPoint(_inputSystem.MousePosition) - transform.position;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = q;
     }
