@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: ce2e675cc74062e4ead5ede1d4a9bb09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3907082766351218924
+    second: decalsgoopgame_0
+  - first:
+      213: -6075314205961664382
+    second: decalsgoopgame_1
+  - first:
+      213: 3823060749435545813
+    second: decalsgoopgame_2
+  - first:
+      213: -48149876917946463
+    second: decalsgoopgame_3
+  - first:
+      213: -3150578137310650927
+    second: decalsgoopgame_4
+  - first:
+      213: 2992977139938645741
+    second: decalsgoopgame_5
+  - first:
+      213: 2480869693090663229
+    second: decalsgoopgame_6
+  - first:
+      213: -878385778176247055
+    second: decalsgoopgame_7
+  - first:
+      213: -8763613071438850862
+    second: decalsgoopgame_8
+  - first:
+      213: -1463441364116942621
+    second: decalsgoopgame_9
+  - first:
+      213: 7187912802609074367
+    second: decalsgoopgame_10
+  - first:
+      213: 7505317491302257128
+    second: decalsgoopgame_11
+  - first:
+      213: -7838524018256801955
+    second: decalsgoopgame_12
+  - first:
+      213: 5710360485554127453
+    second: decalsgoopgame_13
+  - first:
+      213: -634554847943406674
+    second: decalsgoopgame_14
+  - first:
+      213: -3386598127984102242
+    second: decalsgoopgame_15
+  - first:
+      213: -7305910863820583581
+    second: decalsgoopgame_16
+  - first:
+      213: 2521395707702321166
+    second: decalsgoopgame_17
+  - first:
+      213: 3314740091288744881
+    second: decalsgoopgame_18
+  - first:
+      213: 3626134796756276585
+    second: decalsgoopgame_19
+  - first:
+      213: 2986859341277693469
+    second: decalsgoopgame_20
+  - first:
+      213: 715251358713535401
+    second: decalsgoopgame_21
+  - first:
+      213: -6818955722234287472
+    second: decalsgoopgame_22
+  - first:
+      213: -1137541638043830385
+    second: decalsgoopgame_23
+  - first:
+      213: -732124609722466664
+    second: decalsgoopgame_24
+  - first:
+      213: 3681461405777241214
+    second: decalsgoopgame_25
+  - first:
+      213: -8095122299970313000
+    second: decalsgoopgame_26
+  - first:
+      213: 6135771500101550102
+    second: decalsgoopgame_27
+  - first:
+      213: 1625637412806516426
+    second: decalsgoopgame_28
+  - first:
+      213: -4953303160839260766
+    second: decalsgoopgame_29
+  - first:
+      213: -1245883348927677767
+    second: decalsgoopgame_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: decalsgoopgame_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 122
+        width: 62
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce83a6c431fb83630800000000000000
+      internalID: 3907082766351218924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 129
+        width: 91
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28845c60be520bba0800000000000000
+      internalID: -6075314205961664382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 128
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d828d40f7d3e0530800000000000000
+      internalID: 3823060749435545813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 153
+        width: 65
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7b35a21ffe45ff0800000000000000
+      internalID: -48149876917946463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_4
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 120
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd9c7860e5e644d0800000000000000
+      internalID: -3150578137310650927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 92
+        width: 44
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de658eee9d0398920800000000000000
+      internalID: 2992977139938645741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 92
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b83b677d1dd6220800000000000000
+      internalID: 2480869693090663229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fabc04e9c85fc3f0800000000000000
+      internalID: -878385778176247055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_8
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 99
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4dae7d754616680800000000000000
+      internalID: -8763613071438850862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 99
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0523e35dfc0bbe0800000000000000
+      internalID: -1463441364116942621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 99
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb01ffb5c9890c360800000000000000
+      internalID: 7187912802609074367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_11
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 99
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1d8935e7e382860800000000000000
+      internalID: 7505317491302257128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 99
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f8f688fe7f73390800000000000000
+      internalID: -7838524018256801955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 99
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5281e85b964f3f40800000000000000
+      internalID: 5710360485554127453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 67
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabc4d15abb9137f0800000000000000
+      internalID: -634554847943406674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_15
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 67
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94318012f26001d0800000000000000
+      internalID: -3386598127984102242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 68
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d8e4917c03c9a90800000000000000
+      internalID: -7305910863820583581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 68
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00aac7890ccdf220800000000000000
+      internalID: 2521395707702321166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 67
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3f2000d82500e20800000000000000
+      internalID: 3314740091288744881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_19
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9655754b26e925230800000000000000
+      internalID: 3626134796756276585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 67
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d160aeeeeb4737920800000000000000
+      internalID: 2986859341277693469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 67
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab5c3932551de900800000000000000
+      internalID: 715251358713535401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_22
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 67
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09aab1526e33e51a0800000000000000
+      internalID: -6818955722234287472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f877e2b38e3a630f0800000000000000
+      internalID: -1137541638043830385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ebb22eb88f6d5f0800000000000000
+      internalID: -732124609722466664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 11
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74a9a1b4ad271330800000000000000
+      internalID: 3681461405777241214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 11
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42de0782958af80800000000000000
+      internalID: -8095122299970313000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_27
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 11
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610c48eaba3a62550800000000000000
+      internalID: 6135771500101550102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_28
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 73
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acedaeb2d9c6f8610800000000000000
+      internalID: 1625637412806516426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_29
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 10
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a53b59d405524bb0800000000000000
+      internalID: -4953303160839260766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decalsgoopgame_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 12
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba7793f1bbb5bee0800000000000000
+      internalID: -1245883348927677767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      decalsgoopgame_0: 3907082766351218924
+      decalsgoopgame_1: -6075314205961664382
+      decalsgoopgame_10: 7187912802609074367
+      decalsgoopgame_11: 7505317491302257128
+      decalsgoopgame_12: -7838524018256801955
+      decalsgoopgame_13: 5710360485554127453
+      decalsgoopgame_14: -634554847943406674
+      decalsgoopgame_15: -3386598127984102242
+      decalsgoopgame_16: -7305910863820583581
+      decalsgoopgame_17: 2521395707702321166
+      decalsgoopgame_18: 3314740091288744881
+      decalsgoopgame_19: 3626134796756276585
+      decalsgoopgame_2: 3823060749435545813
+      decalsgoopgame_20: 2986859341277693469
+      decalsgoopgame_21: 715251358713535401
+      decalsgoopgame_22: -6818955722234287472
+      decalsgoopgame_23: -1137541638043830385
+      decalsgoopgame_24: -732124609722466664
+      decalsgoopgame_25: 3681461405777241214
+      decalsgoopgame_26: -8095122299970313000
+      decalsgoopgame_27: 6135771500101550102
+      decalsgoopgame_28: 1625637412806516426
+      decalsgoopgame_29: -4953303160839260766
+      decalsgoopgame_3: -48149876917946463
+      decalsgoopgame_30: -1245883348927677767
+      decalsgoopgame_4: -3150578137310650927
+      decalsgoopgame_5: 2992977139938645741
+      decalsgoopgame_6: 2480869693090663229
+      decalsgoopgame_7: -878385778176247055
+      decalsgoopgame_8: -8763613071438850862
+      decalsgoopgame_9: -1463441364116942621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
