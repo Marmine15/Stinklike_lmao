@@ -17,11 +17,16 @@ public class FollowMouse : MonoBehaviour
 
     private void Update()
     {
-        Vector3 difference = cam.ScreenToWorldPoint(_inputSystem.MousePosition) - transform.position;
+        /*Vector3 difference = cam.ScreenToWorldPoint(_inputSystem.MousePosition) - transform.position;
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rotZ + offset);
 
-        //PointToMouse();
+        PointToMouse();*/
+        
+        Vector2 dir = cam.ScreenToWorldPoint(_inputSystem.MousePosition) - transform.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
+        Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = q;
     }
 
     void PointToMouse()

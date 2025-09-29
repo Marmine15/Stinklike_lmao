@@ -24,12 +24,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6726577603444747031}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.961, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.010000229, y: 0.15225224, z: 0}
+  m_LocalScale: {x: 1, y: 0.45045042, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5525287113181375550}
+  m_Father: {fileID: 1397424483038629533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7600449719568877936
 GameObject:
@@ -64,7 +64,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3956953664419873340}
   - {fileID: 1397424483038629533}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -235,7 +234,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.623, z: 0}
   m_LocalScale: {x: 1, y: 2.22, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3956953664419873340}
   m_Father: {fileID: 5525287113181375550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8130742408383239481
@@ -250,6 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9695dfe35596a774c9c985a46f3eae10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowMouse
+  offset: 0
   cam: {fileID: 0}
 --- !u!212 &7277997879016053209
 SpriteRenderer:
