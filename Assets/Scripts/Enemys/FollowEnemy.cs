@@ -65,11 +65,16 @@ public class FollowEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            
+            currentHealth--;
+            if (currentHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+            Destroy(other.gameObject);
         }
     }
 }
