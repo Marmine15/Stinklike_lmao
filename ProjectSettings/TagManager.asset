@@ -15,14 +15,14 @@ TagManager:
   - UI
   - PostProcess
   - Background
+  - Elevator
+  - 
+  - Enemy
+  - Player
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Foreground
   - 
   - 
   - 
@@ -42,6 +42,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Elevator
+    uniqueID: 1461562489
+    locked: 0
+  - name: Enemy
+    uniqueID: 971058645
+    locked: 0
+  - name: Player
+    uniqueID: 1299515693
     locked: 0
   m_RenderingLayers:
   - Default
