@@ -130,11 +130,11 @@ GameObject:
   - component: {fileID: 316313216}
   - component: {fileID: 316313215}
   - component: {fileID: 316313214}
-  - component: {fileID: 316313217}
   - component: {fileID: 316313218}
+  - component: {fileID: 316313219}
   m_Layer: 8
   m_Name: elevartor In_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,7 @@ Animator:
   m_GameObject: {fileID: 316313213}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: eb09190e7c84c9243a3a038acbb4816f, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1c6931e5b968dbb43ad106dcd23abe66, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -208,7 +208,7 @@ SpriteRenderer:
   m_SortingLayerID: 1461562489
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5468678902688792848, guid: 09ae3cf61ce4e8140af0153c2c90d755, type: 3}
+  m_Sprite: {fileID: -8057356444831811903, guid: a5d5ac5c120684e4197141b79c3fa77e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -234,20 +234,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &316313217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 316313213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14ae26784d9592f418fb4f6be0a2f09f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpawner
-  playerPrefab: {fileID: 7600449719568877936, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
-  SpawnPoint: {fileID: 1946673784}
 --- !u!61 &316313218
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -278,7 +264,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -294,6 +280,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.7812376, y: 3.0259607}
   m_EdgeRadius: 0
+--- !u!114 &316313219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316313213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb415f28b1a7a7c42bcae949c790ffb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  canClickDoor: 0
 --- !u!1 &808606906
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +444,7 @@ GameObject:
   - component: {fileID: 1573511347}
   m_Layer: 8
   m_Name: elevator Out_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
