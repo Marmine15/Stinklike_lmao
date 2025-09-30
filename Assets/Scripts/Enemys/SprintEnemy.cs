@@ -27,6 +27,7 @@ public class SprintEnemy : MonoBehaviour
     public float attackIntrevalCounter;
     public float attackTime;
     public bool attacking;
+    public BoxCollider2D sprintCollider;
 
     private void Start()
     {
@@ -72,12 +73,14 @@ public class SprintEnemy : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
         
         attacking = true;
+        sprintCollider.enabled = true;
         yield return new WaitForSeconds(attackTime);
 
         
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(attackTime);
         attacking = false;
+        sprintCollider.enabled = false;
     }
     
     private void OnDrawGizmos()
@@ -88,5 +91,18 @@ public class SprintEnemy : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, chaseRange);
         Gizmos.color = Color.cadetBlue;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            currentHealth--;
+            if (currentHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+            Destroy(other.gameObject);
+        }
     }
 }
