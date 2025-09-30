@@ -7,6 +7,10 @@ public class RangeEnemy : MonoBehaviour
     public Transform target;
     private Rigidbody2D _rigidbody2D;
 
+    [Header("Health")]
+    public int maxHealth;
+    public int currentHealth;
+
     [Header("Ranges")]
     [SerializeField]public float attackRange;
 
@@ -69,5 +73,18 @@ public class RangeEnemy : MonoBehaviour
     {
         Gizmos.color = Color.orange;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            currentHealth--;
+            if (currentHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+            Destroy(other.gameObject);
+        }
     }
 }

@@ -1,0 +1,1061 @@
+fileFormatVersion: 2
+guid: 09ae3cf61ce4e8140af0153c2c90d755
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5468678902688792848
+    second: elevartor In_0
+  - first:
+      213: -4025197122048458560
+    second: elevartor In_1
+  - first:
+      213: 3052181509310978556
+    second: elevartor In_2
+  - first:
+      213: 1313719596592157116
+    second: elevartor In_3
+  - first:
+      213: -3400253812821717214
+    second: elevartor In_4
+  - first:
+      213: 3904599395110367264
+    second: elevartor In_5
+  - first:
+      213: -346932534558183724
+    second: elevartor In_6
+  - first:
+      213: 5839130427210804407
+    second: elevartor In_7
+  - first:
+      213: -7733038622708589201
+    second: elevartor In_8
+  - first:
+      213: -2557700319101911967
+    second: elevartor In_9
+  - first:
+      213: 2679643165558633049
+    second: elevartor In_10
+  - first:
+      213: -1741368334763140778
+    second: elevartor In_11
+  - first:
+      213: 7177478495706007485
+    second: elevartor In_12
+  - first:
+      213: 5653805024751640820
+    second: elevartor In_13
+  - first:
+      213: 1930307873859174014
+    second: elevartor In_14
+  - first:
+      213: -3615862354033887681
+    second: elevartor In_15
+  - first:
+      213: 4169746534852514140
+    second: elevartor In_16
+  - first:
+      213: -7651660813767438459
+    second: elevartor In_17
+  - first:
+      213: 3264506381120031427
+    second: elevartor In_18
+  - first:
+      213: -9095197167669805319
+    second: elevartor In_19
+  - first:
+      213: 8180979005508337457
+    second: elevartor In_20
+  - first:
+      213: 2725372451932698049
+    second: elevartor In_21
+  - first:
+      213: 5581112254643264622
+    second: elevartor In_22
+  - first:
+      213: 7939422567209955932
+    second: elevartor In_23
+  - first:
+      213: 6863048918491906196
+    second: elevartor In_24
+  - first:
+      213: -7412762650904874265
+    second: elevartor In_25
+  - first:
+      213: -8258743273377338211
+    second: elevartor In_26
+  - first:
+      213: 6861520868743162505
+    second: elevartor In_27
+  - first:
+      213: 3730343796390434022
+    second: elevartor In_28
+  - first:
+      213: 2003355530046685252
+    second: elevartor In_29
+  - first:
+      213: -47856082529205175
+    second: elevartor In_30
+  - first:
+      213: -1355727495367490199
+    second: elevartor In_31
+  - first:
+      213: 4667139390360121094
+    second: elevartor In_32
+  - first:
+      213: 8828079148358093643
+    second: elevartor In_33
+  - first:
+      213: 4863625240370670622
+    second: elevartor In_34
+  - first:
+      213: -7325666135643130353
+    second: elevartor In_35
+  - first:
+      213: -1731092453241598749
+    second: elevartor In_36
+  - first:
+      213: 4782255516571670804
+    second: elevartor In_37
+  - first:
+      213: -4190734099705354117
+    second: elevartor In_38
+  - first:
+      213: 4576639688981204081
+    second: elevartor In_39
+  - first:
+      213: 3742197713916021393
+    second: elevartor In_40
+  - first:
+      213: -1369767071138734954
+    second: elevartor In_41
+  - first:
+      213: -3589141703814848242
+    second: elevartor In_42
+  - first:
+      213: -279128908585389142
+    second: elevartor In_43
+  - first:
+      213: 6927843240771468391
+    second: elevartor In_44
+  - first:
+      213: -5794706155205833163
+    second: elevartor In_45
+  - first:
+      213: 950488309671167800
+    second: elevartor In_46
+  - first:
+      213: -5935257827175930726
+    second: elevartor In_47
+  - first:
+      213: -2238516004424198023
+    second: elevartor In_48
+  - first:
+      213: 8642288321737549294
+    second: elevartor In_49
+  - first:
+      213: -207094672417281462
+    second: elevartor In_50
+  - first:
+      213: -6108305302157454399
+    second: elevartor In_51
+  - first:
+      213: -6104249212130335894
+    second: elevartor In_52
+  - first:
+      213: 7571048400825407967
+    second: elevartor In_53
+  - first:
+      213: -5054011480400315127
+    second: elevartor In_54
+  - first:
+      213: -2574224483527875102
+    second: elevartor In_55
+  - first:
+      213: 7246587698422612388
+    second: elevartor In_56
+  - first:
+      213: -7784550326250033388
+    second: elevartor In_57
+  - first:
+      213: -4434994826272474992
+    second: elevartor In_58
+  - first:
+      213: 4764752181840827369
+    second: elevartor In_59
+  - first:
+      213: 3423807399028435858
+    second: elevartor In_60
+  - first:
+      213: -2540832973758137677
+    second: elevartor In_61
+  - first:
+      213: 2918237378834907035
+    second: elevartor In_62
+  - first:
+      213: 8745453421317000263
+    second: elevartor In_63
+  - first:
+      213: 493144878267470614
+    second: elevartor In_64
+  - first:
+      213: -6302610690670865112
+    second: elevartor In_65
+  - first:
+      213: -2570019427631004539
+    second: elevartor In_66
+  - first:
+      213: -1308505599657039900
+    second: elevartor In_67
+  - first:
+      213: 7810748380308096707
+    second: elevartor In_68
+  - first:
+      213: -1345059829206509316
+    second: elevartor In_69
+  - first:
+      213: -1595513035153702510
+    second: elevartor In_70
+  - first:
+      213: 8220074576781358914
+    second: elevartor In_71
+  - first:
+      213: 7011013728116805494
+    second: elevartor In_72
+  - first:
+      213: 8876438195708152617
+    second: elevartor In_73
+  - first:
+      213: -507317232461145544
+    second: elevartor In_74
+  - first:
+      213: 9185595228227944730
+    second: elevartor In_75
+  - first:
+      213: -3320332179519425818
+    second: elevartor In_76
+  - first:
+      213: 6277666288169191950
+    second: elevartor In_77
+  - first:
+      213: 7482023777185078120
+    second: elevartor In_78
+  - first:
+      213: -5839286560951308871
+    second: elevartor In_79
+  - first:
+      213: 4050416747037034008
+    second: elevartor In_80
+  - first:
+      213: -1782171315718580796
+    second: elevartor In_81
+  - first:
+      213: -1057441126831246305
+    second: elevartor In_82
+  - first:
+      213: 4614885675849254950
+    second: elevartor In_83
+  - first:
+      213: 2754147913504752826
+    second: elevartor In_84
+  - first:
+      213: -4316970503693393
+    second: elevartor In_85
+  - first:
+      213: -6920151537235297949
+    second: elevartor In_86
+  - first:
+      213: 4820825906849462684
+    second: elevartor In_87
+  - first:
+      213: 2868863246290158736
+    second: elevartor In_88
+  - first:
+      213: 5707216670430847537
+    second: elevartor In_89
+  - first:
+      213: 8555478148940574792
+    second: elevartor In_90
+  - first:
+      213: -5578225442893164149
+    second: elevartor In_91
+  - first:
+      213: 4369512471291078679
+    second: elevartor In_92
+  - first:
+      213: -4444426413264869326
+    second: elevartor In_93
+  - first:
+      213: 8696408508746865577
+    second: elevartor In_94
+  - first:
+      213: -2032768554738832708
+    second: elevartor In_95
+  - first:
+      213: -6371586058269894247
+    second: elevartor In_96
+  - first:
+      213: -2730752911992637148
+    second: elevartor In_97
+  - first:
+      213: -9054982170064668728
+    second: elevartor In_98
+  - first:
+      213: -3332343525055358527
+    second: elevartor In_99
+  - first:
+      213: -3691422256805761338
+    second: elevartor In_100
+  - first:
+      213: 6765720069149778233
+    second: elevartor In_101
+  - first:
+      213: 1074779172785161243
+    second: elevartor In_102
+  - first:
+      213: -1913972474316890220
+    second: elevartor In_103
+  - first:
+      213: -7353003949237745105
+    second: elevartor In_104
+  - first:
+      213: -2530685595421743657
+    second: elevartor In_105
+  - first:
+      213: 7701191715776849479
+    second: elevartor In_106
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elevartor In_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0febf8623895b14b0800000000000000
+      internalID: -5468678902688792848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0806d3b80a328c0800000000000000
+      internalID: -4025197122048458560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf91f7c59e68b5a20800000000000000
+      internalID: 3052181509310978556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1585143054b3210800000000000000
+      internalID: 1313719596592157116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f089c2c2fdfc0d0800000000000000
+      internalID: -3400253812821717214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02032cf567cef2630800000000000000
+      internalID: 3904599395110367264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de22aca2b27f2bf0800000000000000
+      internalID: -346932534558183724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_7
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc231fbf22c80150800000000000000
+      internalID: 5839130427210804407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_8
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d1413185abea490800000000000000
+      internalID: -7733038622708589201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_9
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cf60e6c19318cd0800000000000000
+      internalID: -2557700319101911967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_10
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952fceff241003520800000000000000
+      internalID: 2679643165558633049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_11
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6595457c9ba65d7e0800000000000000
+      internalID: -1741368334763140778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_12
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7cf87f9a68b9360800000000000000
+      internalID: 7177478495706007485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0e3a107b9567e40800000000000000
+      internalID: 5653805024751640820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_14
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ef388b8c4d9ca10800000000000000
+      internalID: 1930307873859174014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_15
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f363a1fb850e1ddc0800000000000000
+      internalID: -3615862354033887681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_16
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51dc45916aedd930800000000000000
+      internalID: 4169746534852514140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_17
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f8d95b707dfc590800000000000000
+      internalID: -7651660813767438459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_18
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cac7ade14bdd4d20800000000000000
+      internalID: 3264506381120031427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_19
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fef6ea4d5e57c180800000000000000
+      internalID: -9095197167669805319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_20
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fb0429f0da88170800000000000000
+      internalID: 8180979005508337457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_21
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5751e2ec772d520800000000000000
+      internalID: 2725372451932698049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_22
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c579d8608147d40800000000000000
+      internalID: 5581112254643264622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_23
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52f44092ce7e2e60800000000000000
+      internalID: 7939422567209955932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_24
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490c6de11a27e3f50800000000000000
+      internalID: 6863048918491906196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_25
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2388cb4a3902990800000000000000
+      internalID: -7412762650904874265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elevartor In_26
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 5
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c6233efbc036d80800000000000000
+      internalID: -8258743273377338211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a95ff8a1acb96ae4689c2f0030eec9f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":27.0,"y":1.0},"gridSpriteSize":{"x":62.0,"y":62.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      elevartor In_0: -5468678902688792848
+      elevartor In_1: -4025197122048458560
+      elevartor In_10: 2679643165558633049
+      elevartor In_11: -1741368334763140778
+      elevartor In_12: 7177478495706007485
+      elevartor In_13: 5653805024751640820
+      elevartor In_14: 1930307873859174014
+      elevartor In_15: -3615862354033887681
+      elevartor In_16: 4169746534852514140
+      elevartor In_17: -7651660813767438459
+      elevartor In_18: 3264506381120031427
+      elevartor In_19: -9095197167669805319
+      elevartor In_2: 3052181509310978556
+      elevartor In_20: 8180979005508337457
+      elevartor In_21: 2725372451932698049
+      elevartor In_22: 5581112254643264622
+      elevartor In_23: 7939422567209955932
+      elevartor In_24: 6863048918491906196
+      elevartor In_25: -7412762650904874265
+      elevartor In_26: -8258743273377338211
+      elevartor In_3: 1313719596592157116
+      elevartor In_4: -3400253812821717214
+      elevartor In_5: 3904599395110367264
+      elevartor In_6: -346932534558183724
+      elevartor In_7: 5839130427210804407
+      elevartor In_8: -7733038622708589201
+      elevartor In_9: -2557700319101911967
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

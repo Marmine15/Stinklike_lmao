@@ -9,10 +9,17 @@ public class FollowMouse : MonoBehaviour
 
     public Camera cam;
 
+    private SpriteRenderer local, parent;
+    private Transform parentTransform;
+    
     private void Start()
     {
-        _inputSystem = GetComponent<InputManager>();
+        _inputSystem = GetComponentInParent<InputManager>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
+        
+        local = GetComponent<SpriteRenderer>();
+        parent = transform.parent.GetComponent<SpriteRenderer>();
+        parentTransform = GetComponentInParent<Transform>();
     }
 
     private void Update()
@@ -27,6 +34,19 @@ public class FollowMouse : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = q;
+
+        var mousePos = cam.ScreenToWorldPoint(_inputSystem.MousePosition);
+        
+        if (mousePos.x > parentTransform.position.x)
+        {
+            local.flipY = false;
+            parent.flipX = false;
+        }
+        else
+        {
+            local.flipY = true;
+            parent.flipX = true;
+        }
     }
 
     void PointToMouse()
