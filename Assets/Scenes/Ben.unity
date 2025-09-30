@@ -246,6 +246,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3804653254778874896, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3956953664419873340, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.85
@@ -257,6 +261,10 @@ PrefabInstance:
     - target: {fileID: 5174102766317573654, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266253661017224240, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+      propertyPath: bulletSpeed
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_LocalScale.x
@@ -302,6 +310,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6071783001840122816, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6286098337097294847, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -314,8 +326,13 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 808606908}
+    - target: {fileID: 8130742408383239481, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5174102766317573654, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
+    - {fileID: 3804653254778874896, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
