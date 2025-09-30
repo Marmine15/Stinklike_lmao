@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -13,12 +14,16 @@ using System.Collections;
         public int currentHealth;
         public bool isKnockedBack = false;
 
+        private Animator animator;
+        
         private void Start()
         {
             _input = GetComponent<InputManager>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
         
             currentHealth = maxHealth;
+
+            animator = GetComponent<Animator>();
         }
 
         private void FixedUpdate()
@@ -30,6 +35,8 @@ using System.Collections;
             }
             _rigidbody2D.linearVelocityX = _input.Horizontal *  moveSpeed;
             _rigidbody2D.linearVelocityY = _input.Vertical *  moveSpeed;
+            
+            animator.SetFloat("xVelocity", Math.Abs(_rigidbody2D.linearVelocity.x));
         }
 
         public void TakeDamage(int amount)
