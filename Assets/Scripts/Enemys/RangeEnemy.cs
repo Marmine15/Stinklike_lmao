@@ -84,7 +84,6 @@ public class RangeEnemy : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-            Destroy(other.gameObject);
         }
     }
 }

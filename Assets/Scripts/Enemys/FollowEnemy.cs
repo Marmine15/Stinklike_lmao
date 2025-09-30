@@ -74,7 +74,6 @@ public class FollowEnemy : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-            Destroy(other.gameObject);
         }
     }
 }
