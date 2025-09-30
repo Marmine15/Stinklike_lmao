@@ -6,6 +6,7 @@ public class RangeEnemy : MonoBehaviour
     [Header("Targets")]
     public Transform target;
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
 
     [Header("Health")]
     public int maxHealth;
@@ -32,6 +33,9 @@ public class RangeEnemy : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         target = GameObject.Find("Player").transform;
+        _animator = GetComponent<Animator>();
+
+        currentHealth = maxHealth;
     }
 
     private void Update()
@@ -52,6 +56,7 @@ public class RangeEnemy : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
         
         shooting = true;
+        _animator.Play("Coder_Attack");
         yield return new WaitForSeconds(shootTime);
         
         var targetPos = target.position;
@@ -67,6 +72,7 @@ public class RangeEnemy : MonoBehaviour
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(shootTime);
         shooting = false;
+        _animator.Play("Coder_Idle");
     }
     
     private void OnDrawGizmos()

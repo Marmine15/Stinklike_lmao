@@ -8,6 +8,7 @@ public class SprintEnemy : MonoBehaviour
     public Transform target;
     private Vector2 _moveDirection;
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
     
     [Header("Speed")]
     public float moveSpeed;
@@ -33,6 +34,9 @@ public class SprintEnemy : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         target = GameObject.Find("Player").transform;
+        _animator = GetComponent<Animator>();
+
+        currentHealth = maxHealth;
     }
     
     private void Update()
@@ -44,10 +48,12 @@ public class SprintEnemy : MonoBehaviour
         if (Vector2.Distance(target.position, transform.position) < sightRange)
         {
             canChase = true;
+            _animator.Play("Weeb_Run");
         }
         else if (Vector2.Distance(target.position, transform.position) > chaseRange)
         {
             canChase = false;
+            _animator.Play("Weeb_Idel");
         }
         
         transform.localScale = transform.position.x > target.position.x ? new Vector2(1, 1) : new Vector2(-1, 1);
@@ -73,13 +79,14 @@ public class SprintEnemy : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
         
         attacking = true;
+        _animator.Play("Weeb_Attack");
         sprintCollider.enabled = true;
         yield return new WaitForSeconds(attackTime);
-
         
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(attackTime);
         attacking = false;
+        _animator.Play("Weeb_Idel");
         sprintCollider.enabled = false;
     }
     

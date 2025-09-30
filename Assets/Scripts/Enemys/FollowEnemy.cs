@@ -44,6 +44,7 @@ public class FollowEnemy : MonoBehaviour
         else if (Vector2.Distance(target.position, transform.position) > chaseRange)
         {
             canChase = false;
+            _animator.Play("Discord_Idel");
         }
         
         transform.localScale = transform.position.x > target.position.x ? new Vector2(1, 1) : new Vector2(-1, 1);
@@ -53,11 +54,6 @@ public class FollowEnemy : MonoBehaviour
     private void FixedUpdate()
     {
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
-    }
-
-    public void TakeDamage(int dameg)
-    {
-        throw new NotImplementedException();
     }
 
     private void OnDrawGizmos()
