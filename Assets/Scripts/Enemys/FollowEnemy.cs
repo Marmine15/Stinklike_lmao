@@ -7,6 +7,7 @@ public class FollowEnemy : MonoBehaviour
     public Transform target;
     private Vector2 _moveDirection;
     private Rigidbody2D _rigidbody2D;
+    private Animator _animator;
     
     [Header("Speed")]
     public float moveSpeed;
@@ -24,6 +25,7 @@ public class FollowEnemy : MonoBehaviour
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
         target = GameObject.Find("Player").transform;
+        _animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
     }
@@ -37,6 +39,7 @@ public class FollowEnemy : MonoBehaviour
         if (Vector2.Distance(target.position, transform.position) < sightRange)
         {
             canChase = true;
+            _animator.Play("Discord_Walk");
         }
         else if (Vector2.Distance(target.position, transform.position) > chaseRange)
         {
@@ -74,7 +77,6 @@ public class FollowEnemy : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-            Destroy(other.gameObject);
         }
     }
 }

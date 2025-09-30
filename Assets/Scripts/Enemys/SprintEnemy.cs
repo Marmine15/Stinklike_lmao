@@ -102,7 +102,6 @@ public class SprintEnemy : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-            Destroy(other.gameObject);
         }
     }
 }

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4637633981192093123}
   - component: {fileID: 3774521027777340261}
   m_Layer: 0
-  m_Name: FollowEnemy
+  m_Name: Discord_Mod
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
