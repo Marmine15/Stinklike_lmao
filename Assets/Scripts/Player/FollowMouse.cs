@@ -20,6 +20,10 @@ public class FollowMouse : MonoBehaviour
         local = GetComponent<SpriteRenderer>();
         parent = transform.parent.GetComponent<SpriteRenderer>();
         parentTransform = GetComponentInParent<Transform>();
+        if (cam == null)
+        {
+            cam = Camera.main;    
+        }
     }
 
     private void Update()
