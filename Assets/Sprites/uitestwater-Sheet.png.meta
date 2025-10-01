@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: e5e95382fbdcda3488ed2abb3dfd94b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2366352541166971474
+    second: uitestwater-Sheet_0
+  - first:
+      213: 9091032958539973587
+    second: uitestwater-Sheet_1
+  - first:
+      213: -1854883694508390480
+    second: uitestwater-Sheet_2
+  - first:
+      213: 2810358878037910823
+    second: uitestwater-Sheet_3
+  - first:
+      213: 821669858313550242
+    second: uitestwater-Sheet_4
+  - first:
+      213: 3662797095205280629
+    second: uitestwater-Sheet_5
+  - first:
+      213: -5990334887866125122
+    second: uitestwater-Sheet_6
+  - first:
+      213: -8640526245370126461
+    second: uitestwater-Sheet_7
+  - first:
+      213: 1293427968050999014
+    second: uitestwater-Sheet_8
+  - first:
+      213: -691177047705599845
+    second: uitestwater-Sheet_9
+  - first:
+      213: 2462243149772399753
+    second: uitestwater-Sheet_10
+  - first:
+      213: 2211396663003673473
+    second: uitestwater-Sheet_11
+  - first:
+      213: 1298656787576823493
+    second: uitestwater-Sheet_12
+  - first:
+      213: 1117027594816048870
+    second: uitestwater-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uitestwater-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aa9954919f6d020800000000000000
+      internalID: 2366352541166971474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c4273f46d92e70800000000000000
+      internalID: 9091032958539973587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7c9218b112246e0800000000000000
+      internalID: -1854883694508390480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725a0d87286600720800000000000000
+      internalID: 2810358878037910823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9bc6bf168276b00800000000000000
+      internalID: 821669858313550242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b1b004d8ed4d230800000000000000
+      internalID: 3662797095205280629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb43c1b582e0edca0800000000000000
+      internalID: -5990334887866125122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f1648c82fa61880800000000000000
+      internalID: -8640526245370126461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee2c3252ed23f110800000000000000
+      internalID: 1293427968050999014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90ca9a13227866f0800000000000000
+      internalID: -691177047705599845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984a2d46915ab2220800000000000000
+      internalID: 2462243149772399753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18371db6c8570be10800000000000000
+      internalID: 2211396663003673473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce9aacb771c50210800000000000000
+      internalID: 1298656787576823493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitestwater-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 22
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eec151edaa708f00800000000000000
+      internalID: 1117027594816048870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uitestwater-Sheet_0: 2366352541166971474
+      uitestwater-Sheet_1: 9091032958539973587
+      uitestwater-Sheet_10: 2462243149772399753
+      uitestwater-Sheet_11: 2211396663003673473
+      uitestwater-Sheet_12: 1298656787576823493
+      uitestwater-Sheet_13: 1117027594816048870
+      uitestwater-Sheet_2: -1854883694508390480
+      uitestwater-Sheet_3: 2810358878037910823
+      uitestwater-Sheet_4: 821669858313550242
+      uitestwater-Sheet_5: 3662797095205280629
+      uitestwater-Sheet_6: -5990334887866125122
+      uitestwater-Sheet_7: -8640526245370126461
+      uitestwater-Sheet_8: 1293427968050999014
+      uitestwater-Sheet_9: -691177047705599845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
