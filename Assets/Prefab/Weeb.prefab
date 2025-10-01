@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9109683595418196021}
   - component: {fileID: 8372292032307872699}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AttackHitBoks
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 9087420212455808625}
   - component: {fileID: 2076617249141660206}
   - component: {fileID: 3136436489001340617}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Weeb
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -260,8 +260,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SprintEnemy
   target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
   moveSpeed: 5
-  maxHealth: 3
-  currentHealth: 3
+  maxHealth: 2
+  currentHealth: 2
   sightRange: 7
   chaseRange: 9
   attackRange: 1.5

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3537179796517876190}
   - component: {fileID: 4637633981192093123}
   - component: {fileID: 3774521027777340261}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Discord_Mod
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FollowEnemy
   target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
   moveSpeed: 2
-  maxHealth: 3
-  currentHealth: 3
+  maxHealth: 4
+  currentHealth: 4
   sightRange: 6
   chaseRange: 8
   canChase: 0

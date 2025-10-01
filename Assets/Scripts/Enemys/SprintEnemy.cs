@@ -76,7 +76,6 @@ public class SprintEnemy : MonoBehaviour
     private IEnumerator Attackig()
     {
         Vector3 pdirection = Vector3.Cross(transform.position - target.position, Vector3.forward);
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
         
         attacking = true;
         _animator.Play("Weeb_Attack");
