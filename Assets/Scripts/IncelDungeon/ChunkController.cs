@@ -14,6 +14,7 @@ public class ChunkController : MonoBehaviour
     public List<Vector3> spawnPoint;
     
     public static int ChunkAmount;
+    public static ChunkController instance;
     
     private float SpawnOffset = 25;
     private float nextSpawnPosition;
@@ -22,6 +23,8 @@ public class ChunkController : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
+        
         if (ChunkAmount < 3)
         {
             ChunkAmount = 3;
@@ -50,7 +53,7 @@ public class ChunkController : MonoBehaviour
             {
                 Instantiate(startChunk, point, Quaternion.identity);
             }
-            else if (point == spawnPoint[spawnPoint.Count])
+            else if (point == spawnPoint[spawnPoint.Count-1])
             {
                 print("I want to spawn the End Chunk!");
                 Instantiate(endChunk, point, Quaternion.identity);
@@ -64,12 +67,8 @@ public class ChunkController : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void AddChunks()
     {
-        if (Keyboard.current.oKey.wasPressedThisFrame)
-        {
-            ChunkAmount++;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        ChunkAmount++;
     }
 }
