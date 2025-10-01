@@ -52,8 +52,8 @@ public class RangeEnemy : MonoBehaviour
 
     private IEnumerator Shooting()
     {
-        Vector3 pdirection = Vector3.Cross(transform.position - target.position, Vector3.forward);
-        transform.rotation = Quaternion.LookRotation(Vector3.forward, pdirection);
+        Vector3 pdirection = target.position - transform.position;
+        
         
         shooting = true;
         _animator.Play("Coder_Attack");
@@ -66,8 +66,8 @@ public class RangeEnemy : MonoBehaviour
                 Quaternion.identity);
         projectileClone.TryGetComponent(out Rigidbody2D rb2D);
 
-        projectileClone.transform.right = transform.right.normalized;
-        rb2D.linearVelocity = projectileClone.transform.right * bulletSpeed;
+        //projectileClone.transform.right = transform.right.normalized;
+        rb2D.linearVelocity = pdirection * (bulletSpeed * Time.deltaTime);
         Destroy(projectileClone, bulletLifetime);
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(shootTime);
