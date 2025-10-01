@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-2869994752966094406
+--- !u!1102 &-1973591688945373202
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Discord_Idel
+  m_Name: Elevator
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a2d38d6ec7e84ce4483593de3bd6a8ab, type: 2}
+  m_Motion: {fileID: 7400000, guid: 334a70506d12ac04d87908eb4af0d559, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -32,13 +32,13 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Discord_Enemy
+  m_Name: animatorTest
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
-    m_StateMachine: {fileID: 2469746889052126383}
+    m_StateMachine: {fileID: 5161297100984951336}
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -48,7 +48,7 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1107 &2469746889052126383
+--- !u!1107 &5161297100984951336
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -58,11 +58,11 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -2869994752966094406}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_State: {fileID: 7534952583300875101}
+    m_Position: {x: 420, y: 30, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: 3085004183929814405}
-    m_Position: {x: 290, y: 120, z: 0}
+    m_State: {fileID: -1973591688945373202}
+    m_Position: {x: 450, y: 150, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -72,15 +72,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -2869994752966094406}
---- !u!1102 &3085004183929814405
+  m_DefaultState: {fileID: 7534952583300875101}
+--- !u!1102 &7534952583300875101
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Discord_Walk
+  m_Name: ElevatorIn
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -93,7 +93,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 04d02a0fc5791c4419188617a07b7c70, type: 2}
+  m_Motion: {fileID: 7400000, guid: c07aa9f57fa11a049a13ea71c19e110b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

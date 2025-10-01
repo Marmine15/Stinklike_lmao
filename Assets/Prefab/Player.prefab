@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6082c699b83bae345b98d34b2a56663c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  moveSpeed: 3
+  moveSpeed: 5
   maxHealth: 0
   currentHealth: 0
   isKnockedBack: 0

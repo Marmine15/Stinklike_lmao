@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using UnityEngine.InputSystem;
 
     public class PlayerController : MonoBehaviour
     {
@@ -14,7 +13,6 @@ using UnityEngine.InputSystem;
         public int maxHealth;
         public int currentHealth;
         public bool isKnockedBack = false;
-        public bool canClickDoor;
         private Animator animator;
         
         private void Start()
@@ -40,13 +38,7 @@ using UnityEngine.InputSystem;
             animator.SetFloat("xVelocity", Math.Abs(_rigidbody2D.linearVelocity.x));
         }
 
-        private void Update()
-        {
-            if (canClickDoor && Keyboard.current.wKey.wasPressedThisFrame)
-            {
-                print("load next level");
-            }
-        }
+        
 
         public void TakeDamage(int amount)
         {
