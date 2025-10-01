@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: a9fbda78ed955be4bb3ac5725590b5f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1011299007590957520
+    second: uitest-Sheet_0
+  - first:
+      213: -3014823203483970073
+    second: uitest-Sheet_1
+  - first:
+      213: 5221711235601090974
+    second: uitest-Sheet_2
+  - first:
+      213: 5840321303610405865
+    second: uitest-Sheet_3
+  - first:
+      213: -259515319887146639
+    second: uitest-Sheet_4
+  - first:
+      213: -6000922807209520555
+    second: uitest-Sheet_5
+  - first:
+      213: -4847677123106541994
+    second: uitest-Sheet_6
+  - first:
+      213: -7637662961419649378
+    second: uitest-Sheet_7
+  - first:
+      213: -3053363280616699688
+    second: uitest-Sheet_8
+  - first:
+      213: -8340909873531079828
+    second: uitest-Sheet_9
+  - first:
+      213: -7412731232492675025
+    second: uitest-Sheet_10
+  - first:
+      213: -6157151733418491829
+    second: uitest-Sheet_11
+  - first:
+      213: -2484061968008550477
+    second: uitest-Sheet_12
+  - first:
+      213: -4989802369439537726
+    second: uitest-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uitest-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d10a2dd61bd80e00800000000000000
+      internalID: 1011299007590957520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e59bb705423926d0800000000000000
+      internalID: -3014823203483970073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e994ba5f3be377840800000000000000
+      internalID: 5221711235601090974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e338d3484dfc0150800000000000000
+      internalID: 5840321303610405865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171da580134066cf0800000000000000
+      internalID: -259515319887146639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5529cb7408078bca0800000000000000
+      internalID: -6000922807209520555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e6273375799bcb0800000000000000
+      internalID: -4847677123106541994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e7c6ea002910690800000000000000
+      internalID: -7637662961419649378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8ce90164640a5d0800000000000000
+      internalID: -3053363280616699688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63b1ac79a22f3c80800000000000000
+      internalID: -8340909873531079828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20a4d7e730b02990800000000000000
+      internalID: -7412731232492675025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b400965de176d8aa0800000000000000
+      internalID: -6157151733418491829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7eacc1dc6d68dd0800000000000000
+      internalID: -2484061968008550477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uitest-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 9
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5672e9e29a0cab0800000000000000
+      internalID: -4989802369439537726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uitest-Sheet_0: 1011299007590957520
+      uitest-Sheet_1: -3014823203483970073
+      uitest-Sheet_10: -7412731232492675025
+      uitest-Sheet_11: -6157151733418491829
+      uitest-Sheet_12: -2484061968008550477
+      uitest-Sheet_13: -4989802369439537726
+      uitest-Sheet_2: 5221711235601090974
+      uitest-Sheet_3: 5840321303610405865
+      uitest-Sheet_4: -259515319887146639
+      uitest-Sheet_5: -6000922807209520555
+      uitest-Sheet_6: -4847677123106541994
+      uitest-Sheet_7: -7637662961419649378
+      uitest-Sheet_8: -3053363280616699688
+      uitest-Sheet_9: -8340909873531079828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
