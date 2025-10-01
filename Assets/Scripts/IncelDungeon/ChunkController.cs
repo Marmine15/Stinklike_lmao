@@ -15,7 +15,7 @@ public class ChunkController : MonoBehaviour
     
     public static int ChunkAmount;
     
-    private float SpawnOffset = 10;
+    private float SpawnOffset = 25;
     private float nextSpawnPosition;
     
     
@@ -52,10 +52,12 @@ public class ChunkController : MonoBehaviour
             }
             else if (point == spawnPoint[spawnPoint.Count])
             {
+                print("I want to spawn the End Chunk!");
                 Instantiate(endChunk, point, Quaternion.identity);
             }
             else
             {
+                print("I want to spawn the other Chunks!");
                 Instantiate(chunks[Random.Range(0, chunks.Length)], point, Quaternion.identity);
             }
             

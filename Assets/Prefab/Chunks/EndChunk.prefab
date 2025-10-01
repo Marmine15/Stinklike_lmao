@@ -166,8 +166,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -725399463
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 6135771500101550102, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -347,7 +347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2058736641
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 2
   m_Sprite: {fileID: -1245883348927677767, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2795,7 +2795,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2058736641
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 2
   m_Sprite: {fileID: -6075314205961664382, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3622,8 +3622,8 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1068260673
+  m_SortingLayer: 4
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3846,7 +3846,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 2058736641
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 2
   m_Sprite: {fileID: -1245883348927677767, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
