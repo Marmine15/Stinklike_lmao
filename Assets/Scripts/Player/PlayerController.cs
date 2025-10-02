@@ -33,7 +33,6 @@ using System.Collections;
                 return; 
             }
             _rigidbody2D.linearVelocityX = _input.Horizontal *  moveSpeed;
-            _rigidbody2D.linearVelocityY = _input.Vertical *  moveSpeed;
             
             animator.SetFloat("xVelocity", Math.Abs(_rigidbody2D.linearVelocity.x));
         }

@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     private Transform playertarget;
+    private ChunkController chunky;
+
+    private void Start()
+    {
+        chunky = ChunkController.instance;
+    }
     
     public void LoadNewScene()
     {
@@ -14,5 +20,6 @@ public class SceneLoader : MonoBehaviour
     {
         playertarget = GameObject.FindGameObjectWithTag("Player").transform;
         Destroy(playertarget.gameObject);
+        chunky.AddChunks();
     }
 }

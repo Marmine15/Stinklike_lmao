@@ -48,26 +48,31 @@ public class RangeEnemy : MonoBehaviour
                 StartCoroutine(Shooting());
             }
         }
+        
+        if (target.position.x-transform.position.x > 0)
+        {
+            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+        }
     }
 
     private IEnumerator Shooting()
     {
-        Vector3 pdirection = target.position - transform.position;
-        
-        
         shooting = true;
         _animator.Play("Coder_Attack");
         yield return new WaitForSeconds(shootTime);
-        
+        Vector3 pdirection = target.position - transform.position;
         var targetPos = target.position;
         _bulletTimer = bulletCooldown;
         var projectileClone =
             Instantiate(bullet, bulletSpawn.position,
                 Quaternion.identity);
         projectileClone.TryGetComponent(out Rigidbody2D rb2D);
-
-        //projectileClone.transform.right = transform.right.normalized;
-        rb2D.linearVelocity = pdirection * (bulletSpeed * Time.deltaTime);
+        
+        rb2D.linearVelocity = pdirection.normalized * (bulletSpeed);
         Destroy(projectileClone, bulletLifetime);
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(shootTime);
