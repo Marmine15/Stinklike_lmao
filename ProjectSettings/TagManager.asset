@@ -66,5 +66,8 @@ TagManager:
   - name: PowerUp
     uniqueID: 2082612067
     locked: 0
+  - name: HealthBar
+    uniqueID: 1682056119
+    locked: 0
   m_RenderingLayers:
   - Default
