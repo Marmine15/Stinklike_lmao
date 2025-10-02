@@ -34,6 +34,12 @@ using System.Collections;
                 StartCoroutine(KnockBack());
                 return; 
             }
+
+            if (currentHealth > maxHealth)
+            {
+                currentHealth = maxHealth;
+            }
+            
             _rigidbody2D.linearVelocityX = _input.Horizontal *  moveSpeed;
             
             animator.SetFloat("xVelocity", Math.Abs(_rigidbody2D.linearVelocity.x));
