@@ -67,7 +67,7 @@ public class RangeEnemy : MonoBehaviour
         projectileClone.TryGetComponent(out Rigidbody2D rb2D);
 
         //projectileClone.transform.right = transform.right.normalized;
-        rb2D.linearVelocity = pdirection * (bulletSpeed * Time.deltaTime);
+        rb2D.linearVelocity = pdirection.normalized * (bulletSpeed);
         Destroy(projectileClone, bulletLifetime);
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(shootTime);

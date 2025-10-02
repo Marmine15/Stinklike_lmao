@@ -247,15 +247,15 @@ MonoBehaviour:
   maxHealth: 3
   currentHealth: 3
   attackRange: 9
-  attackSpeed: 5
+  attackSpeed: 1
   attackIntrevalCounter: 0
   shootTime: 1.175
   shooting: 0
   bullet: {fileID: 5915939505683385863, guid: 992241b421dfbeb449167f3913cd0e7d, type: 3}
   bulletCooldown: 2
   bulletSpawn: {fileID: 2757922207292557188}
-  bulletSpeed: 9
-  bulletLifetime: 1.5
+  bulletSpeed: 10
+  bulletLifetime: 4
 --- !u!95 &566744599724692081
 Animator:
   serializedVersion: 7
