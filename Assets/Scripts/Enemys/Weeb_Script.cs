@@ -61,6 +61,8 @@ public class SprintEnemy : MonoBehaviour
         if (Vector2.Distance(target.position, transform.position) < attackRange)
         {
             if (attacking) return;
+            
+            _rigidbody2D.linearVelocity = Vector2.zero;
             if (attackIntrevalCounter < Time.time)
             {
                 StartCoroutine(Attackig());
@@ -85,7 +87,6 @@ public class SprintEnemy : MonoBehaviour
         attackIntrevalCounter = Time.time;
         yield return new WaitForSeconds(attackTime);
         attacking = false;
-        _animator.Play("Weeb_Idel");
         sprintCollider.enabled = false;
     }
     
