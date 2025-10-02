@@ -3917,11 +3917,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawnManager
   airEnemies:
-  - {fileID: 3110686445357614442, guid: 582257bc6e86287409aa04dcc3d322cd, type: 3}
-  - {fileID: 4311799167058222374, guid: e9540355064f41c449c70ab17df12256, type: 3}
+  - {fileID: 9142682872694600269, guid: 2028f826f13b5a745b96cc491b766d2a, type: 3}
   groundEnemies:
-  - {fileID: 1133632664219566151, guid: e69ffb1c25ed58c4e9137b620669d33d, type: 3}
-  - {fileID: 8304398518726949458, guid: d7b5cf09fabad6b4f8e0a747007447e8, type: 3}
+  - {fileID: 7515041166240781639, guid: 355c76a191db1b34f83bff1abb048815, type: 3}
   enemyAirSpawnPoints:
   - {fileID: 2242249246124690540}
   - {fileID: 5216004030871930955}
