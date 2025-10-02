@@ -4,14 +4,29 @@ using Random = UnityEngine.Random;
 
 public class ObjectSpawnManager : MonoBehaviour
 {
-    public GameObject[] enemies;
-    public Transform[] spawnPoints;
+    public GameObject[] airEnemies;
+    public GameObject[] groundEnemies;
+    public Transform[] enemyAirSpawnPoints;
+    public Transform[] enemyGroundSpawnPoints;
 
     private void Start()
     {
-        foreach (Transform point in spawnPoints)
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
         {
-            Instantiate(enemies[Random.Range(0, enemies.Length)], point.position, Quaternion.identity);
+            foreach (Transform point in enemyAirSpawnPoints)
+            {
+                Instantiate(airEnemies[Random.Range(0, airEnemies.Length)], point.position, Quaternion.identity);
+            }
+
+            foreach (Transform point in enemyGroundSpawnPoints)
+            {
+                Instantiate(groundEnemies[Random.Range(0, groundEnemies.Length)], point.position, Quaternion.identity);
+            }
         }
     }
 }
