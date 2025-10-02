@@ -77,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -725399463
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 7505317491302257128, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -257,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -725399463
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 2
   m_Sprite: {fileID: -1137541638043830385, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1377,11 +1377,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawnManager
   airEnemies:
-  - {fileID: 3110686445357614442, guid: 582257bc6e86287409aa04dcc3d322cd, type: 3}
-  - {fileID: 4311799167058222374, guid: e9540355064f41c449c70ab17df12256, type: 3}
+  - {fileID: 9142682872694600269, guid: 2028f826f13b5a745b96cc491b766d2a, type: 3}
   groundEnemies:
-  - {fileID: 1133632664219566151, guid: e69ffb1c25ed58c4e9137b620669d33d, type: 3}
-  - {fileID: 8304398518726949458, guid: d7b5cf09fabad6b4f8e0a747007447e8, type: 3}
+  - {fileID: 7515041166240781639, guid: 355c76a191db1b34f83bff1abb048815, type: 3}
   enemyAirSpawnPoints:
   - {fileID: 1648430878550450462}
   - {fileID: 5714847099238434270}
@@ -1469,7 +1467,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -725399463
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -878385778176247055, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3550,7 +3548,7 @@ Transform:
   m_GameObject: {fileID: 8281529105362330931}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 2.5, z: 0}
+  m_LocalPosition: {x: 8.5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3731,7 +3729,7 @@ Transform:
   m_GameObject: {fileID: 8582525808688873211}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.2, y: 2.5, z: 0}
+  m_LocalPosition: {x: -1.2, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3814,7 +3812,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -725399463
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: -6075314205961664382, guid: ce2e675cc74062e4ead5ede1d4a9bb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -32,7 +32,7 @@ public class RangeEnemy : MonoBehaviour
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
-        target = GameObject.Find("Player").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         _animator = GetComponent<Animator>();
 
         currentHealth = maxHealth;
