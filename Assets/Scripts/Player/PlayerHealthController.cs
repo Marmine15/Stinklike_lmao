@@ -1,16 +1,24 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealthController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public PlayerController target;
+    public Image[] hearts;
+
+    private void update()
     {
-        
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < target.currentHealth)
+            {
+                hearts[i].color = new Color(1, 1, 1, 1);
+            }
+            else
+            {
+                hearts[i].color = new Color(1, 1, 1, 0.5f);
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

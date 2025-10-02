@@ -12,6 +12,8 @@ using System.Collections;
     
         public int maxHealth;
         public int currentHealth;
+        public float damageCooldown;
+        private float _damageCooldownTimer;
         public bool isKnockedBack = false;
         private Animator animator;
         
@@ -39,15 +41,25 @@ using System.Collections;
 
         
 
-        public void TakeDamage(int amount)
+        public void TakeDamage()
         {
-            if (currentHealth > 0)
+            if (Time.time > _damageCooldownTimer)
             {
-                currentHealth -= amount;
+                currentHealth -= 1;
+                _damageCooldownTimer = Time.time + damageCooldown;
             }
-            else
+            if(currentHealth <= 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                print("death");
+            }
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                TakeDamage();
             }
         }
 
