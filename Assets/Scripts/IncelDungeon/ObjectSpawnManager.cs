@@ -32,6 +32,8 @@ public class ObjectSpawnManager : MonoBehaviour
             {
                 Instantiate(powerUps[Random.Range(0, powerUps.Length)], point.position, Quaternion.identity);
             }
+            
+            gameObject.SetActive(false);
         }
     }
 }

@@ -47,11 +47,11 @@ TagManager:
   - name: Elevator
     uniqueID: 1461562489
     locked: 0
-  - name: Enemy
-    uniqueID: 971058645
-    locked: 0
   - name: DecalsBack
     uniqueID: 3569567833
+    locked: 0
+  - name: Enemy
+    uniqueID: 971058645
     locked: 0
   - name: Ground
     uniqueID: 1068260673
@@ -61,6 +61,9 @@ TagManager:
     locked: 0
   - name: DecalsFront
     uniqueID: 2058736641
+    locked: 0
+  - name: PowerUp
+    uniqueID: 2082612067
     locked: 0
   m_RenderingLayers:
   - Default
