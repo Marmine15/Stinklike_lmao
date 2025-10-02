@@ -11,6 +11,7 @@ public class ChunkController : MonoBehaviour
     public GameObject[] chunks;
     public GameObject startChunk;
     public GameObject endChunk;
+    public GameObject sinkRoom;
     public List<Vector3> spawnPoint;
     
     public static int ChunkAmount;
@@ -18,12 +19,17 @@ public class ChunkController : MonoBehaviour
     
     private float SpawnOffset = 25;
     private float nextSpawnPosition;
-    
-    
+
+    private bool _spawnSinkRoom = false;
 
     private void Awake()
     {
         instance = this;
+
+        if (RollForSink() == 69)
+        {
+            _spawnSinkRoom = true;
+        }
         
         if (ChunkAmount < 3)
         {
@@ -60,8 +66,17 @@ public class ChunkController : MonoBehaviour
             }
             else
             {
-                print("I want to spawn the other Chunks!");
-                Instantiate(chunks[Random.Range(0, chunks.Length)], point, Quaternion.identity);
+                if (_spawnSinkRoom)
+                {
+                    print("I'm the sink room!");
+                    Instantiate(sinkRoom, point, Quaternion.identity);
+                    _spawnSinkRoom = false;
+                }
+                else
+                {
+                    print("I want to spawn the other Chunks!");
+                    Instantiate(chunks[Random.Range(0, chunks.Length)], point, Quaternion.identity);
+                }
             }
             
         }
@@ -70,5 +85,10 @@ public class ChunkController : MonoBehaviour
     public void AddChunks()
     {
         ChunkAmount++;
+    }
+
+    public int RollForSink()
+    {
+        return Random.Range(0, 100);
     }
 }
