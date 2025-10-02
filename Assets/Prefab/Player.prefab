@@ -265,8 +265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 5
-  maxHealth: 0
-  currentHealth: 0
+  maxHealth: 13
+  currentHealth: 13
+  damageCooldown: 1
   isKnockedBack: 0
 --- !u!1 &7937934513721046585
 GameObject:
