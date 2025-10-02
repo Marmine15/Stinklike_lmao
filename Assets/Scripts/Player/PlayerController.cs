@@ -50,8 +50,7 @@ using System.Collections;
             }
             if(currentHealth <= 0)
             {
-                //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                print("death");
+                SceneManager.LoadScene("Deth_Secene");
             }
         }
 
