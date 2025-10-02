@@ -55,12 +55,19 @@ using System.Collections;
             }
         }
 
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnCollisionStay2D(Collision2D other)
         {
             if (other.gameObject.CompareTag("Enemy"))
             {
                 TakeDamage();
             }
+            
+            if (other.gameObject.CompareTag("EnemyBullet"))
+            {
+                TakeDamage();
+                Destroy(other.gameObject);
+            }
+            
         }
 
         private IEnumerator KnockBack()
@@ -69,4 +76,6 @@ using System.Collections;
             print("game resumed?");
             isKnockedBack = false;
         }
+
+        
     }
