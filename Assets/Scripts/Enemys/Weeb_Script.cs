@@ -65,7 +65,7 @@ public class SprintEnemy : MonoBehaviour
             _rigidbody2D.linearVelocity = Vector2.zero;
             if (attackIntrevalCounter < Time.time)
             {
-                StartCoroutine(Attackig());
+                StartCoroutine(Attacking());
             }
         }
     }
@@ -75,7 +75,7 @@ public class SprintEnemy : MonoBehaviour
         _rigidbody2D.linearVelocityX = canChase ? _moveDirection.x * moveSpeed : 0;
     }
     
-    private IEnumerator Attackig()
+    private IEnumerator Attacking()
     {
         Vector3 pdirection = Vector3.Cross(transform.position - target.position, Vector3.forward);
         
