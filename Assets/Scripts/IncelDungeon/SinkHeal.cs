@@ -6,7 +6,8 @@ public class SinkHeal : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            print("I have healed you!");
+            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            player.currentHealth = player.maxHealth;
         }
     }
 }
