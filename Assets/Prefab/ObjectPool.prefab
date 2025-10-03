@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a98e5af233ab834b86509016a40afb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPooler
-  amountToPool: 20
+  amountToPool: 10
   bulletPrefab: {fileID: 4076627842178384408, guid: 22e91df2dd9ada642aa4f3d7b5e39c18, type: 3}

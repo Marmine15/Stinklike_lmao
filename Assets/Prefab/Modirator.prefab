@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 971058645
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -765139197033747161, guid: 2270a0c6d6816f247aa31b7a79b160b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FollowEnemy
   target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
   moveSpeed: 2
-  maxHealth: 4
-  currentHealth: 4
+  maxHealth: 12
+  currentHealth: 12
   sightRange: 6
   chaseRange: 8
   canChase: 0

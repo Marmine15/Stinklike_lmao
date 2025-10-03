@@ -283,6 +283,10 @@ MonoBehaviour:
   - {fileID: 0}
   powerUps:
   - {fileID: 8490631021804673993, guid: 580ac0c7159e6e44197c0d1536119e9e, type: 3}
+  - {fileID: 7403542791600041054, guid: eeb0f5ef4f7927d4195d7403bb516e30, type: 3}
+  - {fileID: 7403542791600041054, guid: eeb0f5ef4f7927d4195d7403bb516e30, type: 3}
+  - {fileID: 7403542791600041054, guid: eeb0f5ef4f7927d4195d7403bb516e30, type: 3}
+  - {fileID: 2696109552604205680, guid: a055a802376e15c46962749594966bc8, type: 3}
   powerUpSpawnPoints:
   - {fileID: 82789987831527059}
 --- !u!1 &1848969613143118751

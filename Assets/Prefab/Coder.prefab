@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RangeEnemy
   target: {fileID: 5525287113181375550, guid: ff7ee32fd6caa204ebde70c55ccc681f, type: 3}
-  maxHealth: 3
+  maxHealth: 6
   currentHealth: 3
   attackRange: 9
   attackSpeed: 1
@@ -222,7 +222,7 @@ MonoBehaviour:
   bullet: {fileID: 5915939505683385863, guid: 992241b421dfbeb449167f3913cd0e7d, type: 3}
   bulletCooldown: 2
   bulletSpawn: {fileID: 2757922207292557188}
-  bulletSpeed: 10
+  bulletSpeed: 25
   bulletLifetime: 4
 --- !u!95 &566744599724692081
 Animator:
