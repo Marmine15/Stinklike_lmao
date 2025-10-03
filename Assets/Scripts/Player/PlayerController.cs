@@ -51,7 +51,7 @@ using System.Collections;
         {
             if (Time.time > _damageCooldownTimer)
             {
-                currentHealth -= 1;
+                currentHealth -= 2;
                 _damageCooldownTimer = Time.time + damageCooldown;
             }
             if(currentHealth <= 0)
