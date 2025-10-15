@@ -18,7 +18,9 @@ public class ChunkController : MonoBehaviour
     public static ChunkController instance;
     
     private float SpawnOffset = 25;
+    private float spawnOffsetY = 0.0001f;
     private float nextSpawnPosition;
+    public float nextSpawnPositionY;
 
     private bool _spawnSinkRoom = false;
 
@@ -40,13 +42,15 @@ public class ChunkController : MonoBehaviour
         {
             if (i == 0)
             {
-                spawnPoint.Add(new Vector3(0,0,0));
-                nextSpawnPosition  += SpawnOffset;
+                spawnPoint.Add(new Vector3(0, 0,0));
+                nextSpawnPosition += SpawnOffset;
+                nextSpawnPositionY += spawnOffsetY;
             }
             else
             {
-                spawnPoint.Add(new Vector3(nextSpawnPosition,0,0));
+                spawnPoint.Add(new Vector3(nextSpawnPosition, nextSpawnPositionY,0));
                 nextSpawnPosition += SpawnOffset;
+                nextSpawnPositionY += spawnOffsetY;
             }
         }
     }
@@ -85,6 +89,16 @@ public class ChunkController : MonoBehaviour
     public void AddChunks()
     {
         ChunkAmount++;
+    }
+
+    public void ResetChunks()
+    {
+        ChunkAmount = 3;
+    }
+
+    public int HowManyChunks()
+    {
+        return ChunkAmount;
     }
 
     public int RollForSink()

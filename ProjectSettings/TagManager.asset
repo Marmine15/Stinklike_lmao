@@ -8,6 +8,8 @@ TagManager:
   - Bullet
   - Ground
   - EnemyBullet
+  - CoderEnemy
+  - DiscordEnemy
   layers:
   - Default
   - TransparentFX

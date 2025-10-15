@@ -60,19 +60,21 @@ using System.Collections;
             }
         }
 
-        private void OnCollisionStay2D(Collision2D other)
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.gameObject.CompareTag("Enemy"))
-            {
-                TakeDamage();
-            }
-            
             if (other.gameObject.CompareTag("EnemyBullet"))
             {
                 TakeDamage();
                 Destroy(other.gameObject);
             }
-            
+        }
+
+        private void OnCollisionStay2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("DiscordEnemy") || other.gameObject.CompareTag("CoderEnemy"))
+            {
+                TakeDamage();
+            }
         }
 
         private IEnumerator KnockBack()
@@ -81,6 +83,4 @@ using System.Collections;
             print("game resumed?");
             isKnockedBack = false;
         }
-
-        
     }

@@ -44,7 +44,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("DiscordEnemy") || collision.gameObject.CompareTag("CoderEnemy") || collision.gameObject.CompareTag("Ground"))
         {
             killTimer = killTimerReset;
             gameObject.SetActive(false);

@@ -40,22 +40,38 @@ public class RangeEnemy : MonoBehaviour
 
     private void Update()
     {
-        if (Vector2.Distance(target.position, transform.position) < attackRange)
+        if (target != null)
         {
-            if (shooting) return;
-            if (attackIntrevalCounter < Time.time)
+            if (Vector2.Distance(target.position, transform.position) < attackRange)
             {
-                StartCoroutine(Shooting());
+                if (shooting) return;
+                if (attackIntrevalCounter < Time.time)
+                {
+                    StartCoroutine(Shooting());
+                }
             }
-        }
         
-        if (target.position.x-transform.position.x > 0)
-        {
-            transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            if (target.position.x - transform.position.x > 0)
+            {
+                transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            }
+            else
+            {
+                transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+            }
         }
         else
         {
-            transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+            Destroy(gameObject);
+        }
+        
+    }
+
+    private void FixedUpdate()
+    {
+        if (_rigidbody2D.linearVelocityX > 0)
+        {
+            _animator.Play("Coder_Move");
         }
     }
 
