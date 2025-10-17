@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-public class FollowEnemy : MonoBehaviour
+public class DiscordModFollow : MonoBehaviour
 {
     [Header("Target")]
     public Transform target;
@@ -37,23 +36,30 @@ public class FollowEnemy : MonoBehaviour
 
     private void Update()
     {
-        if (target == null) return;
+        if (currentHealth <= 0)
+        {
+            _rigidbody2D.linearVelocity = Vector2.zero;
+            _animator.Play("DiscordModClean");
+        }
+        else
+        {
+            if (target == null) return;
 
-        _moveDirection = Vector3.Normalize(target.position - transform.position);
+            _moveDirection = Vector3.Normalize(target.position - transform.position);
         
-        if (Vector2.Distance(target.position, transform.position) < sightRange)
-        {
-            canChase = true;
-            _animator.Play("Discord_Walk");
-        }
-        else if (Vector2.Distance(target.position, transform.position) > chaseRange)
-        {
-            canChase = false;
-            _animator.Play("Discord_Idel");
-        }
+            if (Vector2.Distance(target.position, transform.position) < sightRange)
+            {
+                canChase = true;
+                _animator.Play("DiscordModAttack");
+            }
+            else if (Vector2.Distance(target.position, transform.position) > chaseRange)
+            {
+                canChase = false;
+                _animator.Play("DiscordModIdle");
+            }
         
-        transform.localScale = transform.position.x > target.position.x ? new Vector2(1, 1) : new Vector2(-1, 1);
-           
+            transform.localScale = transform.position.x > target.position.x ? new Vector2(1, 1) : new Vector2(-1, 1);
+        }
     }
 
     private void FixedUpdate()
@@ -74,11 +80,6 @@ public class FollowEnemy : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             currentHealth--;
-            if (currentHealth <= 0)
-            {
-                print("I should be dead, no?");
-                _animator.Play("ModeratorClean");
-            }
         }
     }
 

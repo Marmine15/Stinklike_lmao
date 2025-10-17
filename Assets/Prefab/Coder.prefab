@@ -224,6 +224,7 @@ MonoBehaviour:
   bulletSpawn: {fileID: 2757922207292557188}
   bulletSpeed: 25
   bulletLifetime: 4
+  cleanCoder: {fileID: 3928999631323417485, guid: a5e7361722af6eb4789a5a2ddb4b3c23, type: 3}
 --- !u!95 &566744599724692081
 Animator:
   serializedVersion: 7

@@ -44,13 +44,13 @@ public class ChunkController : MonoBehaviour
             {
                 spawnPoint.Add(new Vector3(0, 0,0));
                 nextSpawnPosition += SpawnOffset;
-                nextSpawnPositionY += spawnOffsetY;
+                nextSpawnPositionY -= spawnOffsetY;
             }
             else
             {
                 spawnPoint.Add(new Vector3(nextSpawnPosition, nextSpawnPositionY,0));
                 nextSpawnPosition += SpawnOffset;
-                nextSpawnPositionY += spawnOffsetY;
+                nextSpawnPositionY -= spawnOffsetY;
             }
         }
     }
@@ -98,7 +98,7 @@ public class ChunkController : MonoBehaviour
 
     public int HowManyChunks()
     {
-        return ChunkAmount;
+        return ChunkAmount - 3;
     }
 
     public int RollForSink()

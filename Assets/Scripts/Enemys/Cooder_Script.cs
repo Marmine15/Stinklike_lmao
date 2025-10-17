@@ -29,6 +29,8 @@ public class RangeEnemy : MonoBehaviour
     public float bulletSpeed;
     public float bulletLifetime;
 
+    [Header("Death")] public GameObject cleanCoder;
+
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -40,31 +42,38 @@ public class RangeEnemy : MonoBehaviour
 
     private void Update()
     {
-        if (target != null)
+        if (currentHealth <= 0)
         {
-            if (Vector2.Distance(target.position, transform.position) < attackRange)
-            {
-                if (shooting) return;
-                if (attackIntrevalCounter < Time.time)
-                {
-                    StartCoroutine(Shooting());
-                }
-            }
-        
-            if (target.position.x - transform.position.x > 0)
-            {
-                transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
-            }
-            else
-            {
-                transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
-            }
+            _rigidbody2D.linearVelocity = Vector2.zero;
+            _animator.Play("CoderClean");
         }
         else
         {
-            Destroy(gameObject);
-        }
+            if (target != null)
+            {
+                if (Vector2.Distance(target.position, transform.position) < attackRange)
+                {
+                    if (shooting) return;
+                    if (attackIntrevalCounter < Time.time)
+                    {
+                        StartCoroutine(Shooting());
+                    }
+                }
         
+                if (target.position.x - transform.position.x > 0)
+                {
+                    transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+                }
+                else
+                {
+                    transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
+                }
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
     }
 
     private void FixedUpdate()
@@ -107,10 +116,12 @@ public class RangeEnemy : MonoBehaviour
         if (other.gameObject.CompareTag("Bullet"))
         {
             currentHealth--;
-            if (currentHealth <= 0)
-            {
-                Destroy(gameObject);
-            }
         }
+    }
+
+    public void CleanDeath()
+    {
+        Instantiate(cleanCoder, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
